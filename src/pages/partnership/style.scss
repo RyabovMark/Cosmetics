@@ -1,0 +1,36 @@
+.partnership {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+.partnership__back-btn {
+  margin-bottom: 21px;
+}
+
+.partnership__title {
+  margin-bottom: 29px;
+}
+
+.partnership__text {
+  margin-bottom: 56px;
+}
+
+.partnership__grid {
+  margin-bottom: 67px;
+}
+
+.partnership-image {
+  background-image: url('https://ceoworld.biz/wp-content/uploads/2020/06/Female-manager-addressing-team-at-board-meeting.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 56px;
+  height: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .partnership {
+    padding: 0 15px;
+  }
+}

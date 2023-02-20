@@ -1,0 +1,48 @@
+.tabs__buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons__btn {
+  padding: 4px 17px;
+  background-color: var(--secondaryBackground);
+  border: none;
+  border-radius: 23px;
+  text-transform: capitalize;
+}
+
+.buttons__btn-active {
+  color: inherit;
+}
+
+.buttons__btn-disabled {
+  color: rgba(85, 85, 85, 0.5);
+}
+
+.buttons__btn-disabled:hover {
+  color: var(--mainColor);
+}
+
+.content__panel {
+  width: 100%;
+  animation: 0.5s visible linear;
+}
+
+.content__panel-active {
+  display: block;
+}
+
+.content__panel-disabled {
+  display: none;
+}
+
+@keyframes visible{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 100%;
+  }
+}

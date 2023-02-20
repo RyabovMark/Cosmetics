@@ -1,0 +1,140 @@
+.footer {
+  padding: 70px 70px 140px;
+  background-color: var(--secondaryBackground);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__min-width {
+  display: none;
+}
+
+.footer-logo {
+  margin-bottom: 65px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer .logo-title--footer {
+  display: block;
+  text-align: center;
+  color: var(--thirdColor);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -25px;
+}
+
+.footer__column {
+  flex: 0 1 25%;
+  margin: 0 25px;
+}
+
+.footer__title {
+  margin-bottom: 26px;
+}
+
+.footer__text {
+  margin-bottom: 26px;
+}
+
+.footer__link {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+  transition: ease-in-out 0.2s;
+}
+
+.footer__link:hover {
+  color: var(--darkColor);
+  font-weight: 600;
+}
+
+.footer__link:first-letter {
+  text-transform: uppercase;
+}
+
+.footer__link:last-child {
+  margin-bottom: 0;
+}
+
+.footer__social {
+  margin-bottom: 26px;
+}
+
+.footer__social a {
+  background-color: var(--thirdBackground);
+  transition: ease-in-out 0.2s;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us .contact-us__chip {
+  border-radius: 20px;
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  padding: 3px 7px;
+}
+
+.contact-us .contact-us__chip:first-child {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .footer {
+    padding: 20px 20px 40px;
+  }
+
+  .footer-logo {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  .contact-us .contact-us__chip {
+    padding: 2px 7px;
+  }
+
+  .contact-us .contact-us__chip:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 830px) {
+    .footer__container {
+      display: none;
+    }
+    .footer__min-width {
+      display: block;
+    }
+
+    .footer__text {
+      text-align: center;
+    }
+
+    .contact-us {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-us .contact-us__chip:first-child {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+
+    .footer__signature {
+      margin: 0 auto;
+    }
+  }
+}

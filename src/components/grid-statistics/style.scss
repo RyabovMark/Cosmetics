@@ -1,0 +1,42 @@
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__item {
+  display: flex;
+  flex: 0 1 33.33%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 18px;
+}
+
+.item__stat {
+  font-size: 96px;
+  color: #e3dad0;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+.item__description {
+  font-size: 20px;
+  line-height: 180%;
+}
+
+@media screen and (max-width: 900px) {
+  .grid__item {
+    flex: 0 1 50%;
+  }
+
+  .item__stat {
+    font-size: 68px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid__item {
+    flex: 0 1 100%;
+    align-items: center;
+  }
+}

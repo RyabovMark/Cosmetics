@@ -1,0 +1,48 @@
+.product__title {
+  color: var(--thirdColor);
+  margin-bottom: 67px;
+}
+
+.product__sub-text {
+  margin-bottom: 34px;
+}
+
+.product-container__author {
+  display: flex;
+}
+
+.product-container__author address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 35px;
+  font-style: normal;
+  width: auto;
+}
+
+.author__name {
+  font-size: 24px;
+  text-transform: capitalize;
+  padding-bottom: 4px;
+}
+
+.author__speciality abbr {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .product__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .product__sub-text {
+    margin-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .product-container__sign {
+    margin: 25px auto 0;
+  }
+}

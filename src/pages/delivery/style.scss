@@ -1,0 +1,40 @@
+.delivery {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+.delivery__back-btn {
+  margin-bottom: 21px;
+}
+
+.delivery__title {
+  margin-bottom: 29px;
+}
+
+.delivery__image {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/6a8bd857321689.59dd7d44ea5b6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  height: 420px;
+  width: 100%;
+}
+
+.delivery__subtitle {
+  margin-bottom: 25px;
+}
+
+.list__item {
+  margin: 0 0 18px 25px;
+}
+
+.delivery__list .list__item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .delivery {
+    padding: 0 15px;
+  }
+}

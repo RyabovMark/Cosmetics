@@ -1,0 +1,36 @@
+.loyalty {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+.loyalty__back-btn {
+  margin-bottom: 21px;
+}
+
+.loyalty__title {
+  margin-bottom: 29px;
+}
+
+.loyalty__text {
+  margin-bottom: 56px;
+}
+
+.loyalty__grid {
+  margin-bottom: 67px;
+}
+
+.loyalty__image {
+  background-image: url('https://studiomagenta.co.uk/app/uploads/2020/07/Onesta-Hero-Shot.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 56px;
+  height: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .loyalty {
+    padding: 0 15px;
+  }
+}

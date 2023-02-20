@@ -1,0 +1,244 @@
+.contacts {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contacts__back-btn {
+  margin-bottom: 21px;
+}
+
+.contacts-title {
+  margin-bottom: 29px;
+}
+
+.contacts-image__top {
+  background-image: url('https://assets.website-files.com/5e7a1f9f5d22ab1757079a58/5e7a1f9f5d22ab956e079ae0_5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  height: 420px;
+  width: 100%;
+}
+
+.contacts-image__bot {
+  background-image: url('https://manage.tanamiproperties.com/Project/Location_Map/197/Thumb/197.jpg');
+  margin-bottom: 73px;
+}
+
+.contacts-table {
+  width: 100%;
+  margin: 0 auto 43px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.table__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 1 calc((100% / 4) - 3rem / 4);
+  padding-left: 40px;
+  height: 139px;
+  background: var(--secondaryBackground);
+  box-sizing: border-box;
+}
+
+.item__title {
+  margin-bottom: 11px;
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.item__name {
+  font-size: 21px;
+}
+
+.contacts__social-media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+.social-media__text {
+  flex: 0 1 40%;
+}
+
+.social-media__links {
+  flex: 0 1 40%;
+}
+
+.contacts__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 110px;
+}
+
+.gallery__item {
+  flex: 1 1 calc((100% / 4) - 3rem / 4);
+  max-width: calc((100% / 4) - 3rem / 4);
+  transition: 0.3s;
+}
+
+.gallery__item:hover {
+  scale: 1.1;
+}
+
+.request {
+  margin: 0 auto;
+  max-width: 85%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.request__column {
+  flex: calc((100% / 2) - 5%);
+  max-width: calc((100% / 2) - 5%);
+}
+
+.request__column img {
+  width: 100%;
+}
+
+.request__form {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column__title {
+  margin-bottom: 30px;
+  color: var(--thirdColor);
+}
+
+.column__subtitle {
+  margin-bottom: 30px;
+}
+
+.form__btn {
+  margin-top: 30px;
+}
+
+.form__field {
+  position: relative;
+}
+
+.form__field input {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 4px 10px;
+}
+
+.form__field label {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.form__field input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type='number']:hover,
+input[type='number']:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type='text']:not(:placeholder-shown) + label,
+input[type='number']:not(:placeholder-shown) + label,
+input[type='email']:not(:placeholder-shown) + label {
+  transform: translateY(-100%);
+  font-size: 10px;
+  color: var(--thirdColor);
+}
+
+input[type='text']:not(:placeholder-shown),
+input[type='number']:not(:placeholder-shown),
+input[type='email']:not(:placeholder-shown) {
+  border-bottom-color: var(--thirdColor);
+}
+
+@media screen and (max-width: 1200px) {
+  .table__item {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .item__name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .table__item,
+  .gallery__item {
+    flex: 0 1 calc((100% / 2) - 0.5rem);
+  }
+
+  .item__name {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contacts__social-media {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-media__text {
+    flex: 0 1 100%;
+  }
+
+  .social-media__links {
+    flex: 0 1 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .request__column {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .request .request__column:first-child {
+    margin-bottom: 20px;
+  }
+
+  .request__form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-media__links {
+    flex: 0 1 100%;
+  }
+
+  .table__item {
+    flex: 0 1 100%;
+  }
+}

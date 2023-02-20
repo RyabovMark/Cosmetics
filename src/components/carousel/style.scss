@@ -1,0 +1,61 @@
+.carousel-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.carousel-header__title {
+  flex: 0 0 70%;
+}
+
+.carousel-header__title span {
+  font-weight: 600;
+}
+
+.carousel-header__buttons-group {
+  display: flex;
+  justify-content: space-between;
+  width: 72px;
+  height: 40px;
+  background-color: var(--secondaryBackground);
+  border-radius: 10px;
+  padding: 0 14px;
+}
+
+.carousel-header__buttons-group button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.carousel-header__buttons-group button[disabled] svg path{
+  fill: rgba(0,0,0,0.1)
+}
+
+.carousel-header__buttons-group button:not([disabled]):hover svg path{
+  fill: #594740;
+}
+
+.carousel-header__buttons-group button svg path {
+  fill: var(--thirdColor);
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ }
+
+.slider-line{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 0 10px;
+  transition: all ease-in-out 1s;
+}

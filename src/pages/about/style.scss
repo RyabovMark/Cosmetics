@@ -1,0 +1,40 @@
+.about {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+.about__back-btn {
+  margin-bottom: 21px;
+}
+
+.about__title {
+  margin-bottom: 29px;
+}
+
+.about__text {
+  margin-bottom: 56px;
+}
+
+.about__grid {
+  margin-bottom: 67px;
+}
+
+.about-image__top {
+  background-image: url('https://ceoworld.biz/wp-content/uploads/2020/06/Female-manager-addressing-team-at-board-meeting.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 56px;
+  height: 420px;
+  width: 100%;
+}
+
+.about-image {
+  background-image: url('https://studiomagenta.co.uk/app/uploads/2020/07/Onesta-Hero-Shot.jpg');
+}
+
+@media screen and (max-width: 960px) {
+  .about {
+    padding: 0 15px;
+  }
+}

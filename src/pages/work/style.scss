@@ -1,0 +1,41 @@
+.work {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+.work__back-btn {
+  margin-bottom: 21px;
+}
+
+.work__title {
+  margin-bottom: 29px;
+}
+
+.work__text {
+  margin-bottom: 56px;
+}
+
+.work__quote {
+  margin-bottom: 29px;
+}
+
+.work__btn {
+  padding: 0 20px;
+  margin: 0 auto 56px;
+}
+
+.work-image {
+  background-image: url('https://12storeez.com/images/1000xP_100_in/uploads/images/CATALOG/top/113649/61f94993143fe-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 56px;
+  height: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .work {
+    padding: 0 15px;
+  }
+}

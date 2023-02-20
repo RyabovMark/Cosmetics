@@ -1,0 +1,28 @@
+.chip__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 164px;
+  height: 50px;
+  border-radius: 66px;
+  background-color: var(--thirdBackground);
+}
+
+.chip__container a {
+  display: flex;
+  align-items: center;
+}
+
+.chip__container a img {
+  width: 18px;
+  height: 18px;
+}
+
+.chip__container a span {
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.photo-gallery__item {
+  flex: 1 1 calc((100% / 4) - 3rem / 4);
+  max-width: calc((100% / 4) - 3rem / 4);
+  transition: 0.3s;
+}
+
+.photo-gallery__item:hover{
+  scale: 1.1;
+}
+
+@media screen and (max-width: 1030px) {
+  .photo-gallery__item {
+    flex: 0 1 calc((100% / 2) - 0.5rem);
+    max-width: calc((100% / 2) - 0.5rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo-gallery__item {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+}

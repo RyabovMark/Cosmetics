@@ -1,0 +1,27 @@
+.btn-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 7px;
+  width: auto;
+  border-radius: 66px;
+  background-color: inherit;
+}
+
+.btn-container .btn-container__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-container span {
+  padding-left: 13px;
+}
+
+.btn-container span:first-letter {
+  text-transform: uppercase;
+}
+
+a {
+  width: auto;
+  align-content: center;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './style.scss'
 const gallery = [
   {
     url: "https://avatars.mds.yandex.net/i?id=2d6ed94fdd03e97ef5385611d3db8195-5194713-images-thumbs&n=13&exp=1",
